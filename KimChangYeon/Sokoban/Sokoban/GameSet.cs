@@ -27,7 +27,8 @@ namespace Sokoban
             Console.ResetColor();                            // 컬러를 초기화 한다
             Console.CursorVisible = false;                   // 커서를 숨긴다
             Console.Title = "SOKOBAN?";               // 타이틀을 설정한다.
-            
+            Console.SetBufferSize(Console.LargestWindowWidth,Console.LargestWindowHeight);
+
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
             
